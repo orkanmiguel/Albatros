@@ -1,0 +1,69 @@
+{
+  "main": [
+    {
+      "name": "Inicio",
+      "url": "/"
+    },
+    {
+      "name": "Escalada",
+      "url": "/pricing"
+    },
+    {
+      "name": "Blog",
+      "url": "/blog"
+    },
+    {
+      "name": "Preguntas frecuentes",
+      "url": "/faq"
+    },
+    {
+      "name": "Nosotros",
+      "url": "/elements"
+    },
+    {
+      "name": "Contacto",
+      "url": "/contact"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Gimnasio",
+      "menu": [
+        {
+          "text": "Valores",
+          "url": "/pricing"
+        },
+        {
+          "text": "Ir al inicio",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "name": "Clases",
+      "menu": [
+        {
+          "text": "Valores",
+          "url": "/pricing"
+        },
+        {
+          "text": "Salidas",
+          "url": "/blog"
+        }
+      ]
+    },
+    {
+      "name": "Necesitas Ayuda",
+      "menu": [
+        {
+          "text": "Preguntas Frecuentes",
+          "url": "/faq"
+        },
+        {
+          "text": "Reglamento SantiagoBoulder",
+          "url": "/privacy-policy"
+        }
+      ]
+    }
+  ]
+}
