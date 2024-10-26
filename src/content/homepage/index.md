@@ -68,6 +68,6 @@ call_to_action:
   image: "/images/climb1.webp"
   button:
     enable: true
-    label: "Contact Us"
+    label: "Contactanos"
     link: "/contact"
 ---
