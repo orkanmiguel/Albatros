@@ -81,6 +81,7 @@ const { title, meta_title, description, image, noindex, canonical } =
       {plainify(meta_title ? meta_title : title ? title : config.site.title)}
     </title>
 
+
     <!-- canonical url -->
     {canonical && <link rel="canonical" href={canonical} item-prop="url" />}
 
@@ -157,6 +158,12 @@ const { title, meta_title, description, image, noindex, canonical } =
   <body>
     <TwSizeIndicator />
     <Header />
+   <!--  <text>Hi</text>
+    <div class="h-500 bg-500-px mt-100">
+    <video controls="" autoplay="" transition:persist>
+      <source src="https://ia804502.us.archive.org/33/items/GoldenGa1939_3/GoldenGa1939_3_512kb.mp4" type="video/mp4">
+    </video> -->
+  </div>
     <main id="main-content">
       <slot />
     </main>

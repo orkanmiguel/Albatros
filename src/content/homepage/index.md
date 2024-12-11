@@ -1,20 +1,21 @@
 ---
 banner:
-  title: Santiago Boulder
-  content: Somos amantes de la escalada y de su comunidad, es por que eso que pensamos en todo lo necesario para el progreso de esta hermosa disciplina, creando un espacio integral de atención ( kinesiología, optometria deportiva, psicología deportiva, masajes, yoga, nutrición).
-  image: /images/SantiagoBoulder.webp
+  title: Club Deportivo Albatros
+  content: 67 años de historia
+  image: /images/IMG_0412.jpg
   button:
-    label: "Contacto"
+    label: "Partidos"
     link: "/contact"
     enable: true
 
 # feature
 feature:
-  title: Lo que necesitas saber
+  title: REY DE COPAS 🏆🥇
   features:
-    - name: "Clases para todas las edades"
-      icon: "/images/code.svg"
+    - name: "Barra Oficial “Los del Techo” 🟢"
+      #icon: "/images/code.svg"
       content: "Descripcion de las clases"
+
     - name: "Salida a Roca"
       icon: "/images/oop.svg"
       content: "Descripcion de las salidas a roca y horarios"

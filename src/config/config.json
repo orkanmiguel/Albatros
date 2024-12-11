@@ -1,13 +1,13 @@
 {
   "site": {
-    "title": "SantiagoBoulder",
+    "title": "Club Deportivo Albatros",
     "base_url": "https://bigspring-light-astro.vercel.app",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/logoSantiagoBoulder.jpg",
-    "logo": "/images/logoSantiagoBoulder.jpg",
-    "logo_width": "100",
-    "logo_height": "100",
+    "favicon": "/images/Logo.jpeg",
+    "logo": "/images/Logo.jpeg",
+    "logo_width": "150",
+    "logo_height": "150",
     "logo_text": "Astroplate"
   },
 
