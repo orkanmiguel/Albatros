@@ -14,16 +14,16 @@ feature:
   features:
     - name: "Albatros VS ClubFutbol"
       icon: "/images/oop.svg"
-      content: "Descripcion de las salidas a roca y horarios"
+      content: "Descripcion Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
     - name: "Serie: Primera"
       icon: "/images/user-clock.svg"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content: "Descripcion Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
     - name: "Serie: Segunda"
       icon: "/images/user-clock.svg"
-      content: "Descripcion de las salidas a roca y horarios"
+      content: "Descripcion Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
     - name: "Serie: Senior"
       icon: "/images/user-clock.svg"
-      content: "Descripcion de las salidas a roca y horarios"
+      content: "Descripcion Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
 # services
 services:
   - title: "Barra Oficial “Los del Techo”"
