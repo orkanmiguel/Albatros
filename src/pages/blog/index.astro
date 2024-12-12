@@ -54,14 +54,14 @@ const currentPosts = sortedPosts.slice(0, config.settings.pagination);
               </a>
             </h2>
             <p
-              set:html={plainify(currentPosts[0].body.slice(0, summary_length))}
+              set:html={plainify(currentPosts[0].body.slice(0, summary_length)+"...")}
             />
             <a
               class="btn btn-primary mt-4"
               href={`/${blog_folder}/${currentPosts[0].slug}`}
               rel=""
             >
-              Read More
+              Saber mas
             </a>
           </div>
         </div>
