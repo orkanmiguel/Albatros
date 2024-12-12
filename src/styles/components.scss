@@ -92,6 +92,14 @@
   }
 }
 
+.col-recommended-vs {
+  @apply relative z-10 md:-mx-20 md:-my-2;
+
+  .card {
+    @apply border-0 shadow-[0_1rem_3rem_rgba(0,0,0,.175)];
+  }
+}
+
 //faq
 .faq {
   &-head {

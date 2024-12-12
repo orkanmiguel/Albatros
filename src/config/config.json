@@ -6,6 +6,9 @@
     "trailing_slash": false,
     "favicon": "/images/Logo.jpeg",
     "logo": "/images/Logo.jpeg",
+    "logoVS": "/images/barra/vs.png",
+    "logoU": "/images/barra/lau.png",
+    "colocolo": "/images/barra/colocolo.png",
     "logo_width": "150",
     "logo_height": "150",
     "logo_text": "Astroplate"

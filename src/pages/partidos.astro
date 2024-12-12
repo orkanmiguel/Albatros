@@ -2,6 +2,8 @@
 import Base from "@/layouts/Base.astro";
 import Cta from "@/layouts/components/Cta.astro";
 import type { TPostType, TPlan } from "@/types";
+import config from "@/config/config.json";
+import { Image } from "astro:assets";
 import { getEntryBySlug } from "astro:content";
 
 const entry = (await getEntryBySlug("pricing", "index")) as TPostType;
@@ -12,111 +14,189 @@ const { title, description, plans, call_to_action } = entry.data;
   <section class="section pb-0">
     <div class="container">
       <h1 class="text-center font-normal">{title}</h1>
+
+      <!--  -->
+      <div class="section row -mt-10 justify-center md:mt-0">
+
+
+            <div
+              class="flex-row"
+            >
+
+              <div class="card bg-[#67a869]">
+                <h1 class="text-center text-3xl">01/02/2025</h1>
+
+                <div class="grid grid-rows-3 grid-flow-col gap-4  ">
+                  {/* TODO: Agregar logo */}
+
+
+                   <!-- CARD LOCAL -->
+                  <div class="flex text-center row justify-center items-center row-start-1 row-end-4">
+                    <h4>CD ALbatros</h4>
+
+                  <Image
+                    src={config.site.logo}
+                    width={Number(config.site.logo_width)}
+                    height={Number(config.site.logo_height)}
+                    alt="albatros"
+
+                  />
+                  <h5 class="mt-2">Local</h5>
+                </div>
+
+                 <!-- CARD VS -->
+                <div class="flex row justify-center items-center col-recommended-vs row-start-1 row-end-4 ">
+
+                  <Image
+                  src={config.site.logoVS}
+                  width={Number(config.site.logo_width)}
+                  height={Number(config.site.logo_height)}
+                  alt="albatros"
+
+                />
+              </div>
+              <!-- CARD VISITA -->
+              <div class="flex row justify-center text-center items-center row-start-1 row-end-4 ">
+                <h4>CD Equipo1</h4>
+
+                <Image
+                    src={config.site.logoU}
+                    width={Number(config.site.logo_width)}
+                    height={Number(config.site.logo_height)}
+                    alt="albatros"
+
+                  />
+                  <h5 class="mt-2 ">Visita</h5>
+                </div>
+                </div>
+              </div>
+
+            </div>
+
+
+
+      <!--  -->
+
+      <div class="section row -mt-10 justify-center md:mt-0">
+
+
+        <div
+          class="flex-row"
+        >
+
+          <div class="card bg-[#67a869]">
+            <h1 class="text-center text-3xl">01/02/2025</h1>
+
+            <div class="grid grid-rows-3 grid-flow-col gap-4  ">
+              {/* TODO: Agregar logo */}
+
+
+               <!-- CARD LOCAL -->
+              <div class="flex text-center row justify-center items-center row-start-1 row-end-4">
+                <h4>CD ALbatros</h4>
+
+              <Image
+                src={config.site.logo}
+                width={Number(config.site.logo_width)}
+                height={Number(config.site.logo_height)}
+                alt="albatros"
+
+              />
+              <h5 class="mt-2">Local</h5>
+            </div>
+
+             <!-- CARD VS -->
+            <div class="flex row justify-center items-center col-recommended-vs row-start-1 row-end-4 ">
+
+              <Image
+              src={config.site.logoVS}
+              width={Number(config.site.logo_width)}
+              height={Number(config.site.logo_height)}
+              alt="albatros"
+
+            />
+          </div>
+          <!-- CARD VISITA -->
+          <div class="flex row justify-center text-center items-center row-start-1 row-end-4 ">
+            <h4>CD Equipo1</h4>
+
+            <Image
+                src={config.site.colocolo}
+                width={Number(config.site.logo_width)}
+                height={Number(config.site.logo_height)}
+                alt="albatros"
+
+              />
+              <h5 class="mt-2 ">Visita</h5>
+            </div>
+            </div>
+          </div>
+
+        </div>
+<!--  -->
+
+<div class="section row -mt-10 justify-center md:mt-0">
+
+
+  <div
+    class="flex-row"
+  >
+
+    <div class="card bg-[#67a869]">
       <h1 class="text-center text-3xl">01/02/2025</h1>
-      <div class="section row -mt-10 justify-center md:mt-0">
 
-        {
-          plans?.map((plan: TPlan) => (
-            <div
-              class={`col-12 md:col-4 ${
-                !plan.recommended ? "lg:px-0" : "col-recommended"
-              }`}
-            >
-              <div class="card text-center">
-                <h4>{plan.title}</h4>
-                <div class="mt-5">
-                  {/* TODO: Agregar logo */}
-                  <text>Logo</text>
-                </div>
-                <h5 class="mt-2 font-normal text-text">{plan.subtitle}</h5>
-                <ul class="mt-5">
-                  {plan?.features?.map((feature, index) => (
-                    <li class="mb-[10px] leading-5">{feature}</li>
-                  ))}
-                </ul>
-              {/*   <a
-                  class={`btn mt-5 ${
-                    plan.recommended ? "btn-primary" : "btn-outline-primary"
-                  }`}
-                  href={plan.button.link}
-                >
-                  {plan.button.label}
-                </a> */}
-              </div>
-            </div>
-          ))
-        }
-      </div>
-      <h1 class="text-center text-3xl col-recommended">01/09/2025</h1>
-      <div class="section row -mt-10 justify-center md:mt-0">
+      <div class="grid grid-rows-3 grid-flow-col gap-4  ">
+        {/* TODO: Agregar logo */}
 
-        {
-          plans?.map((plan: TPlan) => (
-            <div
-              class={`col-12 md:col-4 ${
-                !plan.recommended ? "lg:px-0" : "col-recommended"
-              }`}
-            >
-              <div class="card text-center">
-                <h4>{plan.title}</h4>
-                <div class="mt-5">
-                  {/* TODO: Agregar logo */}
-                  <text>Logo</text>
-                </div>
-                <h5 class="mt-2 font-normal text-text">{plan.subtitle}</h5>
-                <ul class="mt-5">
-                  {plan?.features?.map((feature, index) => (
-                    <li class="mb-[10px] leading-5">{feature}</li>
-                  ))}
-                </ul>
-              {/*   <a
-                  class={`btn mt-5 ${
-                    plan.recommended ? "btn-primary" : "btn-outline-primary"
-                  }`}
-                  href={plan.button.link}
-                >
-                  {plan.button.label}
-                </a> */}
-              </div>
-            </div>
-          ))
-        }
-      </div>
-      <h1 class="text-center text-3xl">01/16/2025</h1>
-      <div class="section row -mt-10 justify-center md:mt-0">
 
-        {
-          plans?.map((plan: TPlan) => (
-            <div
-              class={`col-12 md:col-4 ${
-                !plan.recommended ? "lg:px-0" : "col-recommended"
-              }`}
-            >
-              <div class="card text-center">
-                <h4>{plan.title}</h4>
-                <div class="mt-5">
-                  {/* TODO: Agregar logo */}
-                  <text>Logo</text>
-                </div>
-                <h5 class="mt-2 font-normal text-text">{plan.subtitle}</h5>
-                <ul class="mt-5">
-                  {plan?.features?.map((feature, index) => (
-                    <li class="mb-[10px] leading-5">{feature}</li>
-                  ))}
-                </ul>
-              {/*   <a
-                  class={`btn mt-5 ${
-                    plan.recommended ? "btn-primary" : "btn-outline-primary"
-                  }`}
-                  href={plan.button.link}
-                >
-                  {plan.button.label}
-                </a> */}
-              </div>
-            </div>
-          ))
-        }
+         <!-- CARD LOCAL -->
+        <div class="flex text-center row justify-center items-center row-start-1 row-end-4">
+          <h4>CD ALbatros</h4>
+
+        <Image
+          src={config.site.logo}
+          width={Number(config.site.logo_width)}
+          height={Number(config.site.logo_height)}
+          alt="albatros"
+
+        />
+        <h5 class="mt-2">Local</h5>
       </div>
+
+       <!-- CARD VS -->
+      <div class="flex row justify-center items-center col-recommended-vs row-start-1 row-end-4 ">
+
+        <Image
+        src={config.site.logoVS}
+        width={Number(config.site.logo_width)}
+        height={Number(config.site.logo_height)}
+        alt="albatros"
+
+      />
+    </div>
+    <!-- CARD VISITA -->
+    <div class="flex row justify-center text-center items-center row-start-1 row-end-4 ">
+      <h4>CD Equipo1</h4>
+
+      <Image
+          src={config.site.logoU}
+          width={Number(config.site.logo_width)}
+          height={Number(config.site.logo_height)}
+          alt="albatros"
+
+        />
+        <h5 class="mt-2 ">Visita</h5>
+      </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
     </div>
   </section>
   <!-- <Cta cta={call_to_action} /> -->
