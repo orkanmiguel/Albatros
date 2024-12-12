@@ -13,12 +13,12 @@
       "url": "/posiciones"
     },
     {
-      "name": "Galeria",
+      "name": "Historias",
       "url": "/blog"
     },
     {
-      "name": "Nosotros",
-      "url": "/elements"
+      "name": "Reseña",
+      "url": "/reseña"
     }
   ],
   "footer": [

@@ -12,7 +12,7 @@ banner:
 feature:
   title: 67 años de historia
   features:
-    - name: "🟢 Albatros VS ClubFutbol"
+    - name: "Albatros VS ClubFutbol"
       icon: "/images/oop.svg"
       content: "Descripcion de las salidas a roca y horarios"
     - name: "Serie: Primera"
@@ -26,23 +26,60 @@ feature:
       content: "Descripcion de las salidas a roca y horarios"
 # services
 services:
-  - title: "Barra Oficial “Los del Techo” 🟢"
+  - title: "Barra Oficial “Los del Techo”"
     content:
     images:
-      - "/images/IMG_0100.jpg"
-      - "/images/IMG_9436.jpg"
-      - "/images/IMG_0087.jpg"
+      - "/images/barra/LosdelTecho01.jpg"
+      - "/images/barra/LosdelTecho02.jpg"
+      - "/images/barra/LosdelTecho03.jpg"
     button:
       enable: false
       label: Saber mas...
       link: /pricing
 
-  - title: "Series del Club"
+  - title: "Serie Senior"
+    content: Descripcion de la serie senior
+    images:
+      - "/images/senior/Senior01.jpg"
+      - "/images/senior/Senior02.jpg"
+      - "/images/senior/Senior03.jpg"
+      - "/images/senior/Senior04.jpg"
+      - "/images/senior/Senior05.jpg"
+      - "/images/senior/Senior08.jpg"
+      - "/images/senior/Senior09.jpg"
+    button:
+      enable: false
+      label: Check it out
+      link: /contact
+
+  - title: "Serie Primera"
     content: Contamos con series Primera, Segunda, Senior
     images:
-      - "/images/IMG_5039.jpg"
-      - "/images/IMG_5051.jpg"
-      - "/images/IMG_5665.jpg"
+      - "/images/primera/Primera01.jpg"
+      - "/images/primera/Primera02.jpg"
+      - "/images/primera/Primera03.jpg"
+      - "/images/primera/Primera04.jpg"
+      - "/images/primera/Primera05.jpg"
+      - "/images/primera/Primera06.jpg"
+      - "/images/primera/Primera07.jpg"
+    button:
+      enable: false
+      label: Check it out
+      link: /contact
+
+  - title: "Serie Segunda"
+    content: Contamos con series Primera, Segunda, Senior
+    images:
+      - "/images/segunda/Segunda01.jpg"
+      - "/images/segunda/Segunda02.jpg"
+      - "/images/segunda/Segunda03.jpg"
+      - "/images/segunda/Segunda04.jpg"
+      - "/images/segunda/Segunda05.jpg"
+      - "/images/segunda/Segunda06.jpg"
+      - "/images/segunda/Segunda07.jpg"
+      - "/images/segunda/Segunda08.jpg"
+      - "/images/segunda/Segunda09.jpg"
+
     button:
       enable: false
       label: Check it out
