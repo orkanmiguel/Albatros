@@ -21,6 +21,7 @@ const { main }: { main: NavigationLink[] } = menu;
 ---
 
 <header class="header bg-black">
+
   <nav class="navbar container">
     <!-- logo -->
     <div class="order-0">
@@ -31,7 +32,7 @@ const { main }: { main: NavigationLink[] } = menu;
     <label
       id="show-button"
       for="nav-toggle"
-      class="order-2 flex cursor-pointer items-center md:order-1 md:hidden"
+      class="order-2 flex cursor-pointer  items-center md:order-1 md:hidden"
     >
       <svg class="h-6 fill-current" viewBox="0 0 20 20">
         <title>Menu Open</title>
@@ -52,6 +53,7 @@ const { main }: { main: NavigationLink[] } = menu;
     </label>
     <!-- /navbar toggler -->
 
+
     <ul
       id="nav-menu"
       class="navbar-nav order-3 hidden w-full md:order-1 md:flex md:w-auto md:space-x-3"
@@ -69,7 +71,7 @@ const { main }: { main: NavigationLink[] } = menu;
                 </span>
                 <ul class="nav-dropdown-list hidden group-hover:block md:invisible md:absolute md:block md:opacity-0 md:group-hover:visible md:group-hover:opacity-100">
                   {menu.children?.map((child) => (
-                    <li class="nav-dropdown-item">
+                    <li class="nav-dropdown-item ">
                       <a
                         href={child.url}
                         class={`nav-dropdown-link block ${
@@ -97,30 +99,6 @@ const { main }: { main: NavigationLink[] } = menu;
           </>
         ))
       }
-      {
-        nav_button.enable && (
-          <div class="block md:hidden">
-            <a
-              class="btn btn-primary z-0 ml-auto py-[14px]"
-              href={nav_button.link}
-            >
-              {nav_button.label}
-            </a>
-          </div>
-        )
-      }
-    </ul>
-    {
-      nav_button.enable && (
-        <div class="order-1 ml-auto hidden items-center md:order-2 md:ml-0 md:flex md:min-w-[150px] lg:min-w-[200px]">
-          <a
-            class="btn btn-primary z-0 ml-auto py-[14px]"
-            href={nav_button.link}
-          >
-            {nav_button.label}
-          </a>
-        </div>
-      )
-    }
+
   </nav>
 </header>

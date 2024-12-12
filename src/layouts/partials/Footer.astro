@@ -10,7 +10,7 @@ const { footer_content, copyright } = config.params;
 ---
 
 <footer class="section bg-black pb-0 ">
-  <div class="container">
+  <div class="container ">
     {/* footer menu */}
     <div class="row">
       {
@@ -32,13 +32,14 @@ const { footer_content, copyright } = config.params;
         })
       }
       {/* social icons */}
-      <div class="md-12 sm:col-6 lg:col-3">
+      <div class="md-12 flex-end sm:col-6 lg:col-3  ">
         <a href="/" aria-label="Bigspring">
           <Image
             src={config.site.logo}
             width={Number(config.site.logo_width)}
             height={Number(config.site.logo_height)}
             alt=""
+
           />
         </a>
 
@@ -47,8 +48,10 @@ const { footer_content, copyright } = config.params;
       </div>
     </div>
     {/* copyright */}
-    <div class="border-t border-border py-6">
+    <div class=" row border-t border-border py-6">
+
       <p class="text-sm text-center" set:html={markdownify(copyright)} />
+      <text class="text-center">developed by orkanmiguel</text>
     </div>
   </div>
 </footer>

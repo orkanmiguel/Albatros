@@ -5,63 +5,33 @@
       "url": "/"
     },
     {
-      "name": "Escalada",
-      "url": "/pricing"
+      "name": "Partidos",
+      "url": "/partidos"
     },
     {
-      "name": "Blog",
+      "name": "Posiciones",
+      "url": "/posiciones"
+    },
+    {
+      "name": "Galeria",
       "url": "/blog"
-    },
-    {
-      "name": "Preguntas frecuentes",
-      "url": "/faq"
     },
     {
       "name": "Nosotros",
       "url": "/elements"
-    },
-    {
-      "name": "Contacto",
-      "url": "/contact"
     }
   ],
   "footer": [
     {
-      "name": "Gimnasio",
+      "name": "FC Albatros",
       "menu": [
         {
-          "text": "Valores",
-          "url": "/pricing"
+          "text": "Posiciones",
+          "url": "/posiciones"
         },
         {
           "text": "Ir al inicio",
           "url": "#"
-        }
-      ]
-    },
-    {
-      "name": "Clases",
-      "menu": [
-        {
-          "text": "Valores",
-          "url": "/pricing"
-        },
-        {
-          "text": "Salidas",
-          "url": "/blog"
-        }
-      ]
-    },
-    {
-      "name": "Necesitas Ayuda",
-      "menu": [
-        {
-          "text": "Preguntas Frecuentes",
-          "url": "/faq"
-        },
-        {
-          "text": "Reglamento SantiagoBoulder",
-          "url": "/privacy-policy"
         }
       ]
     }

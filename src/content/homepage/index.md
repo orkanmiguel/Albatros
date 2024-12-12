@@ -1,74 +1,66 @@
 ---
 banner:
   title: Club Deportivo Albatros
-  content: 67 años de historia
+  content: REY DE COPAS 🏆🥇
   image: /images/IMG_0412.jpg
   button:
     label: "Partidos"
-    link: "/contact"
+    link: "/partidos"
     enable: true
 
 # feature
 feature:
-  title: REY DE COPAS 🏆🥇
+  title: 67 años de historia
   features:
-    - name: "Barra Oficial “Los del Techo” 🟢"
-      #icon: "/images/code.svg"
-      content: "Descripcion de las clases"
-
-    - name: "Salida a Roca"
+    - name: "🟢 Albatros VS ClubFutbol"
       icon: "/images/oop.svg"
       content: "Descripcion de las salidas a roca y horarios"
-    - name: "Boulder de la Semana"
+    - name: "Serie: Primera"
       icon: "/images/user-clock.svg"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-    - name: "Somos Comunidad"
-      icon: "/images/love.svg"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-    - name: "Profesionales especializados"
-      icon: "/images/speedometer.svg"
-      content: "Noche de escalada para adultos y jovenes"
-    - name: "Night Climb"
-      icon: "/images/speedometer.svg"
-      content: "Noche de escalada para adultos y jovenes"
-
+    - name: "Serie: Segunda"
+      icon: "/images/user-clock.svg"
+      content: "Descripcion de las salidas a roca y horarios"
+    - name: "Serie: Senior"
+      icon: "/images/user-clock.svg"
+      content: "Descripcion de las salidas a roca y horarios"
 # services
 services:
-  - title: "Clases y entrenamiento de escalada"
-    content: "Contaremos con clases y entrenamientos de escalada para niños, niñas y adultos, contemplando diversas categorías ( principiante, avanzado/a y experto/a)"
+  - title: "Barra Oficial “Los del Techo” 🟢"
+    content:
     images:
-      - "/images/foto1.webp"
-      - "/images/foto2.webp"
-      - "/images/foto6.webp"
+      - "/images/IMG_0100.jpg"
+      - "/images/IMG_9436.jpg"
+      - "/images/IMG_0087.jpg"
     button:
-      enable: true
+      enable: false
       label: Saber mas...
       link: /pricing
 
-  - title: "CAMPEONATOS SANTIAGO BOULDER"
-    content: "⛩️ Te invitamos a participar de un campeonato modalidad ronda Americana el día domingo 28 de Julio ⛩️ Tendremos 2 categorías Novicio/Novicia: cinta Verde, Azul y Naranja (v0-v3) Avanzado/Avanzada: cinta Naranja, Rojo y Negra (v3-v6)"
+  - title: "Series del Club"
+    content: Contamos con series Primera, Segunda, Senior
     images:
-      - "/images/campeonato.webp"
-      - "/images/campeonato1.webp"
-      - "/images/campeonato2.webp"
+      - "/images/IMG_5039.jpg"
+      - "/images/IMG_5051.jpg"
+      - "/images/IMG_5665.jpg"
     button:
-      enable: true
+      enable: false
       label: Check it out
       link: /contact
 
 # workflow
-workflow:
-  title: "Disfruta de la escalada con nostros"
-  image: "/images/torres.webp"
-  description: ""
+#workflow:
+#  title: "Disfruta de la escalada con nostros"
+#  image: "/images/IMG_9427.jpg"
+#  description: ""
 
 # call_to_action
 call_to_action:
-  title: Listo para iniciar?
-  content: Nostros te guiaremos a cumplir tus sueños, entragandote las herramientas en el mundo de la escalada
-  image: "/images/climb1.webp"
+  title:
+  content:
+  image: "/images/IMG_9427.jpg"
   button:
-    enable: true
+    enable: false
     label: "Contactanos"
     link: "/contact"
 ---

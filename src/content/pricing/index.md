@@ -1,51 +1,44 @@
 ---
-title: Valores Mensuales
+title: "Nombre del torneo"
 description: ""
 draft: false
 plans:
-  - title: Plan Basico
-    subtitle: 1 vez por semana
-    price: "40.000"
-    type: pesos
+  - title: ALBATROS
+    subtitle: REYES DE COPAS
+    price:
+    type:
     features:
-      - Escalada AM / PM
-      - Elige tu Horario
-      - Cordina con el profesor de tu preferencia
+      - Local
     button:
       label: Inicia una prueba gratis
       link: "/contact"
 
-  - title: Plan Intermedio
-    subtitle: 2 veces por semana
-    price: "60.000"
-    type: pesos
+  - title: VS
+    subtitle:
+    price:
+    type:
     recommended: true
     features:
-      - Escalada AM / PM
-      - Elige tu Horario
-      - Cordina con el profesor de tu preferencia
     button:
       label: Inicia una prueba gratis
       link: "/contact"
 
-  - title: Plan Pro
-    subtitle: 3 veces por semana
-    price: "80.000"
-    type: pesos
+  - title: Equipo2
+    subtitle: Slogan
+    price:
+    type:
     features:
-      - Escalada AM / PM
-      - Elige tu Horario
-      - Cordina con el profesor de tu preferencia
+      - Visita
     button:
       label: Inicia una prueba gratis
       link: "/contact"
 
 call_to_action:
-  title: Conoce nuestros Profesores
-  content: Si tienes dudas o deseas saber más sobre las clases, no dudes en escribirnos
+  title:
+  content:
   image: "/images/leo.webp"
   button:
-    enable: true
+    enable: false
     label: "Contact Us"
     link: "/contact"
 ---
